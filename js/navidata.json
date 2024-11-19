@@ -9,7 +9,57 @@
             "name": "喵物次元",
             "url": "https://www.mwcy.net/",
             "ico": "https://www.mwcy.net/upload/site/20241103-1/0e9b2520a7f643e88a7f51412f6b4665.png"
-        }
+        },
+        {
+            "name": "玩偶哥哥",
+            "url": "https://www.wogg.net/",
+            "ico": "https://www.wogg.net/favicon.ico"
+        },
+        {
+            "name": "玩偶哥哥备用",
+            "url": "https://wogg.xxooo.cf",
+            "ico": "https://wogg.xxooo.cf/favicon.ico"
+        },
+        {
+            "name": "厂长77",
+            "url": "https://www.czzy77.com/",
+            "ico": "https://www.czzy77.com/favicon.ico"
+        },
+        {
+            "name": "厂长88",
+            "url": "https://www.czzy88.com/",
+            "ico": "https://www.czzy88.com//favicon.ico"
+        },
+        {
+            "name": "在线之家",
+            "url": "https://www.zxzjhd.com/",
+            "ico": "https://www.zxzjhd.com/favicon.ico"
+        },
+        {
+            "name": "Auete影视",
+            "url": "https://v.auete.com/",
+            "ico": "https://v.auete.com/favicon.ico"
+        },
+        {
+            "name": "广真多",
+            "url": "https://www.xb6v.com/",
+            "ico": "https://www.xb6v.com/favicon.ico"
+        },
+        {
+            "name": "整挺好",
+            "url": "http://ztha.top/",
+            "ico": "http://ztha.top/favicon.ico"
+        },
+        {
+            "name": "B站",
+            "url": "https://www.bilibili.com/blackboard/live/live-activity-player.html?cid=30902883&quality=1&frameborder=no&framespacing=1&scrolling=no&allowfullscreen=true",
+            "ico": "https://www.bilibili.com/.ico"
+        },
+        {
+            "name": "整挺好",
+            "url": "http://ztha.top/",
+            "ico": "http://ztha.top/favicon.ico"
+        },
     ],
     "PortalNavi":[
         {
@@ -35,6 +85,13 @@
             "name": "Z-lib",
             "url": "https://www.mwcy.net/",
             "ico": "https://www.mwcy.net/favicon.ico"
+        }
+    ],
+    "ToolsNavi":[
+        {
+            "name": "帮小忙",
+            "url": "https://tool.browser.qq.com/",
+            "ico": "https://tool.browser.qq.com/favicon.ico"
         }
     ]
 },{
