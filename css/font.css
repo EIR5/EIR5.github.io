@@ -1,8 +1,0 @@
-@font-face {
-  font-family: "Ali-DFDK";
-  src: url("../fonts/Ali-DFDK.woff2") format("woff2"),
-       url("../fonts/Ali-DFDK.woff") format("woff"),
-       url("../fonts/Ali-DFDK.ttf") format("truetype"),
-       url("../fonts/Ali-DFDK.otf") format("embedded-opentype"),
-}
-.Ali-DFDK{font-family: Ali-DFDK;}
