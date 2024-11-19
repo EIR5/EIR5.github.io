@@ -54,12 +54,7 @@
             "name": "B站",
             "url": "https://www.bilibili.com/blackboard/live/live-activity-player.html?cid=30902883&quality=1&frameborder=no&framespacing=1&scrolling=no&allowfullscreen=true",
             "ico": "https://www.bilibili.com/.ico"
-        },
-        {
-            "name": "整挺好",
-            "url": "http://ztha.top/",
-            "ico": "http://ztha.top/favicon.ico"
-        },
+        }
     ],
     "PortalNavi":[
         {
@@ -95,6 +90,6 @@
         }
     ]
 },{
-    "updataTime": "2024年11月19日14:39:50",
+    "updataTime": "2024年11月20日01:52:24",
     "author":""
 }]
