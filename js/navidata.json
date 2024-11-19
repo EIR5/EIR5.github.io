@@ -1,0 +1,43 @@
+[{
+    "VideoNavi":[
+        {
+            "name": "茶杯狐",
+            "url": "https://www.chabei1.com/",
+            "ico": "https://www.chabei1.com/favicon.ico"
+        },
+        {
+            "name": "喵物次元",
+            "url": "https://www.mwcy.net/",
+            "ico": "https://www.mwcy.net/upload/site/20241103-1/0e9b2520a7f643e88a7f51412f6b4665.png"
+        }
+    ],
+    "PortalNavi":[
+        {
+            "name": "TBox",
+            "url": "https://www.tboxn.com/",
+            "ico": "https://www.tboxn.com/favicon.ico"
+        }
+    ],
+    "SearchNavi":[
+        {
+            "name": "MSN",
+            "url": "https://www.msn.cn/zh-cn",
+            "ico": "https://www.msn.cn/favicon.ico"
+        },
+        {
+            "name": "百度",
+            "url": "https://www.baidu.cn/",
+            "ico": "https://www.baidu.com/favicon.ico"
+        }
+    ],
+    "StudyNavi":[
+        {
+            "name": "Z-lib",
+            "url": "https://www.mwcy.net/",
+            "ico": "https://www.mwcy.net/favicon.ico"
+        }
+    ]
+},{
+    "updataTime": "2024年11月19日14:39:50",
+    "author":""
+}]
