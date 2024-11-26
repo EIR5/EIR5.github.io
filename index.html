@@ -1,292 +1,102 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<!--页面核心样式-->
-<link rel="stylesheet" type="text/css" href="css/font.css"/>
-<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
-<link rel="stylesheet" type="text/css" href="css/style.css"/>
-<!--页面核心JS-->
-<script type="text/javascript" src="js/jquery.min.js"></script>
-<script type="text/javascript" src="js/jquery.SuperSlide.2.1.1.js"></script>
-<script type="text/javascript" src="js/uaredirect.js"></script>
-<script type="text/javascript">browserRedirect("/m");</script>
-<link rel="icon" type="image/svg" href="images/sleepcat.gif">
-<title>Eirs</title> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--页面核心样式-->
+    <link rel="stylesheet" type="text/css" href="css/font.css" />
+    <link rel="stylesheet" type="text/css" href="css/tool.css" />
+    <!--页面核心JS-->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/uaredirect.js"></script>
+    <script type="text/javascript">browserRedirect("/m");</script>
+    <link rel="icon" type="image/svg" href="images/sleepcat.gif">
+    <title>ORTC</title>
 </head>
-<body class="Ali-DFDK">
-<div class="container slideTxtBox ">
-	<canvas id="background"></canvas>
-    <!--Top-->	
-    <div class="header flex flex-pack-justify flex-align-center ">
-        <!--Logo+站名-->
-        <div class="user-info flex flex-align-center ">
-            <div class="portrait"><img src="images/sleepcat.gif"></div>
-            <div class="name blink">Eirs</div>
-        </div>
-        <div class="link t_c hd ">
-            <ul class="flex flex-align-center" id="linkul">
-                <li class="p_r"><a href="javascript:void(0);" class="di_bl" id="aHome">首页</a></li>
-                <li class="p_r"><a href="javascript:void(1);" class="di_bl" id="aVideoNavi">影视</a></li>
-                <li class="p_r"><a href="javascript:void(2);" class="di_bl" id="aPortalNavi">导航</a></li>
-                <li class="p_r"><a href="javascript:void(3);" class="di_bl" id="aSearchNavi">搜索</a></li>
-                <li class="p_r"><a href="javascript:void(4);" class="di_bl" id="aStudyNavi">学习</a></li>
-                <li class="p_r"><a href="javascript:void(5);" class="di_bl" id="aToolsNavi">工具</a></li>
-            </ul>
-        </div>
-    </div>
-    <!-- center -->
-    <div class="bd" id="center" >
-        <div class="warp" id="Home">
-            <!--左侧小部件-MacBook Air-->
-            <div class="macbook">
-                <div class="inner">
-                    <div class="screen">
-                        <div class="face-one">
-                            <div class="camera"></div>
-                            <div class="display">
-                                <div class="shade"></div>
-                            </div>
-                        </div>
-                        <img src="images/apple-logo-white.svg" class="logo">
-                    </div>
-                    <div class="body">
-                        <div class="face-one">
-                            <div class="touchpad">
-                            </div>
-                            <div class="keyboard">
-                                <div class="key"></div>
-                                <div class="key"></div>
-                                <div class="key"></div>
-                                <div class="key"></div>
-                                <div class="key"></div>
-                                <div class="key space"></div>
-                                <div class="key"></div>
-                                <div class="key"></div>
-                                <div class="key"></div>
-                                <div class="key"></div>
-                                <div class="key"></div>
-                                <div class="key"></div>
-                                <div class="key"></div>
-                                <div class="key"></div>
-                                <div class="key"></div>
-                                <div class="key"></div>
-                                <div class="key"></div>
-                                <div class="key"></div>
-                                <div class="key"></div>
-                                <div class="key"></div>
-                                <div class="key"></div>
-                                <div class="key"></div>
-                                <div class="key"></div>
-                                <div class="key"></div>
-                                <div class="key"></div>
-                                <div class="key"></div>
-                                <div class="key"></div>
-                                <div class="key"></div>
-                                <div class="key"></div>
-                                <div class="key"></div>
-                                <div class="key"></div>
-                                <div class="key"></div>
-                                <div class="key"></div>
-                                <div class="key"></div>
-                                <div class="key"></div>
-                                <div class="key"></div>
-                                <div class="key"></div>
-                                <div class="key"></div>
-                                <div class="key"></div>
-                                <div class="key"></div>
-                                <div class="key"></div>
-                                <div class="key"></div>
-                                <div class="key"></div>
-                                <div class="key"></div>
-                                <div class="key"></div>
-                                <div class="key"></div>
-                                <div class="key"></div>
-                                <div class="key"></div>
-                                <div class="key"></div>
-                                <div class="key"></div>
-                                <div class="key"></div>
-                                <div class="key"></div>
-                                <div class="key"></div>
-                                <div class="key"></div>
-                                <div class="key"></div>
-                                <div class="key"></div>
-                                <div class="key"></div>
-                                <div class="key"></div>
-                                <div class="key"></div>
-                                <div class="key f"></div>
-                                <div class="key f"></div>
-                                <div class="key f"></div>
-                                <div class="key f"></div>
-                                <div class="key f"></div>
-                                <div class="key f"></div>
-                                <div class="key f"></div>
-                                <div class="key f"></div>
-                                <div class="key f"></div>
-                                <div class="key f"></div>
-                                <div class="key f"></div>
-                                <div class="key f"></div>
-                                <div class="key f"></div>
-                                <div class="key f"></div>
-                                <div class="key f"></div>
-                                <div class="key f"></div>
-                            </div>
-                        </div>
-                        <div class="pad one"></div>
-                        <div class="pad two"></div>
-                        <div class="pad three"></div>
-                        <div class="pad four"></div>
-                    </div>
+<body class="Ali-DFDK black">
+    <div class="main">
+        <canvas class="canvasbg" id="background"></canvas>
+        <div class="header">
+            <div class="logo-container">
+                <img class="logo portrait" src="images/sleepcat.gif" alt="logo">
+                <div>
+                    <div class="title">ORTC</div>
+                    <div class="sub-title">百宝阁</div>
                 </div>
-                <div class="shadow"></div>
             </div>
-            <!-- content p_r en_box flex flex-align-center flex-pack-center -->
-            <div class="flex">
-                中间
+            <img class="menu" src="images/homepage_menu_icon.png" alt="工具分类">
+            <!-- <img class="share-btn" src="images/share_icon.png" alt="分享按钮"> -->
+        </div>
+        <div class="left-nav">
+            <a class="logo-container" href="javascript:void(0);">
+                <img class="logo portrait" src="images/sleepcat.gif" alt="logo">
+                <div><span class="title">ORTC</span> <span class="sub-title">百宝阁</span></div>
+            </a>
+            <div class="left-nav-inner" style="overflow:hidden">
+                <ul class="category-container">
+                    <li class="category-entry-wrapper" data-actived="true" data-open="true" data-children="">
+                        <a class="category-entry-item" href="javascript:void(0);" data-type="all" data-actived="true" data-open="true">
+                            <img
+                                src="images/20230406_hdtg75yhyui.png">
+                            <span>全部</span></a>
+                    </li>
+                </ul>
             </div>
+            <div class="bottom-fixed-content">
+                <!-- <a class="bottom-fixed-content-item" href="javascript:void(0);"><img src="images/feedback.png" alt="">
+                    <span>我有工具</span></a>
+                <a class="bottom-fixed-content-item" href="javascript:void(0);"><img src="images/feedback_q.png" alt="">
+                    <span>我有疑问</span></a> -->
+                <a class="bottom-fixed-content-item" href="javascript:void(0);"><img src="images/feedback_qqgroup.png" alt="">
+                    <span>群：308811655</span></a>
+            </div>
+        </div>
+        <div class="left-nav-placeholder"></div><!-- 右侧固定导航栏 -->
+
+        <!-- 右侧悬浮Tips -->
+        <div class="nav-button-wrap">
+            <div class="nav-button-item">
+                <a class="nav-backtop" href="javascript:window.scrollTo({ top: 0, behavior: 'smooth' })">
+                    <img class="nav-button-img" src="https://m4.publicimg.browser.qq.com/publicimg/nav/qbtool/nav-top.png">
+                </a>
+            </div>
+            <div class="nav-button-item">
+                <a href="http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=G8GZ1XGfQoypNSFz79BNmF06xOkhKt5h&authKey=6wQcUEbSlL9sHcNv4gtr7jS9Mmz03wjxUAEsLTh4KhOSECC4EpBaMe2nEW%2BZJoas&noverify=0&group_code=308811655">
+                    <img class="nav-button-img" src="https://m4.publicimg.browser.qq.com/publicimg/nav/qbtool/nav-qqgroup.png">
+                </a>
+                <div class="qqgroup-tip">QQ群：308811655</div>
+            </div>
+        </div>
+        <div class="category-name">全部</div>
+        <div class="toollist">
+            <!-- <a class="tool-item" data-type="img" data-style="1" data-log-eid="tool-entry"
+                data-log-param="entry=imgcompress" href="/tupianyasuo.html">
+                <img class="tool-icon" src="images/b91aa2df_xZTks4xOtEs.png ">
+                <div class="name" data-need-charge="0">图片压缩</div>
+            </a>
+            <a class="tool-item" data-type="pdf" data-style="0" data-log-eid="tool-entry"
+                data-log-param="entry=pdf_2_html" href="/pdf_2_html.html" >
+                <img class="tool-icon" src="images/b91aa2df_ZCWRH1Nw0p8.png ">
+                <div class="name" data-need-charge="0">PDF转HTML</div>
+            </a>
+            <a class="tool-item" data-type="pdf" data-style="0" data-log-eid="tool-entry"
+                data-log-param="entry=pdf_2_png" href="/pdf_2_png.html">
+                <img class="tool-icon" src="images/b91aa2df_aCBqbrwMOPk.png ">
+                <div class="name" data-need-charge="0">PDF转图片</div>
+            </a> -->
+        </div>
+        
+        <!-- 底部copyright等 -->
+        <div class="footer-placeholder"></div>
+        <div class="footer">
+            <!-- <div class="link"><img class="logo" src="images/logo.png" alt="">
+                <div><a href="http://tool.browser.qq.com/">点击体验</a><span>更多免费小工具</span></div>
+            </div> -->
+            <!-- <div class="license"><a href="#">隐私政策</a><a href="#">免责声明</a></div> -->
+            <div class="copyright"><span>Copyright © 2024 - 2099 ORTC. All Rights Reserved.</span></div>
         </div>
     </div>
-    <!-- foot -->
-    <div class="flex " style="justify-content: flex-end;margin-right: 5%;">
-        <div class="flex flex-align-center">
-            <a href="" target="_blank"><i class="fa fa-music icon-3d" style="font-size: 2em;"></i></a>
-            <a href="" target="_blank"><i class="fa fa-weixin icon-3d" style="font-size: 2em;"></i></a>
-            <a href="" target="_blank"><i class="fa fa-envelope-o  icon-3d" style="font-size: 2em;"></i></a><input id="foo" type="hidden" value="mylecat@163.com">
-            <a href="" target="_blank"><i class="fa fa-github icon-3d" style="font-size: 2em;"></i></a>
-            <a href="" target="_blank"><i class="fa fa-qq icon-3d" style="font-size: 2em;"></i></a>
-        </div>
-        <div class="text" style="width: 385px;">然后知生于忧患而死于安乐<br>
-            <p>Then know born in sorrow died in peace and happiness</p>
-        </div>
-    </div>
-</div>
-<script type="application/javascript"  charset="utf-8">
-    function addTab(val,name){
-        var strHtml='<div class="txt">'+name+'</div><ul class="flex flex-warp">';
-        for (v in val) {
-            strHtml +='<li class="transition t_c">';
-            strHtml +='<div class="icon"><a href="'+val[v]["url"]+'" target="_blank"><img src="'+val[v]["ico"]+'" ></a></div>';
-            strHtml +='<h3 class="ellipsis"><a href="'+val[v]["url"]+'" target="_blank">'+val[v]["name"]+'</a></h3></li>';
-        }
-        strHtml+='</ul>';
-        return strHtml;
-    }
-    window.onload = function(){
-        $.ajax({
-            type: "GET",
-            url: "./js/navidata.json?callback=cb",
-            dataType: 'json',
-            jsonp: "callback",
-            jsonpCallback: "f",
-            success: function (data) {
-                console.log('内容更新时间：'+data[1]["updataTime"]);
-                for(var v in data[0]){
-                    $("#center").append('<div class="warp" id="center'+v+'" style="display: none;"></div>');
-                    $("#center"+v).append(addTab(data[0][v],$("#a"+v).html()))
-                }
-            },
-                
-        });
-    }
-    jQuery(".slideTxtBox").slide(); 
-    try {
-        if (/Android|webOS|iPhone|iPod|BlackBerry/i.test(navigator.userAgent)) {
-
-        } else {
-            var canvas = document.querySelector('canvas'),
-            ctx = canvas.getContext('2d')
-            canvas.width = window.innerWidth;
-            canvas.height = window.innerHeight;
-            ctx.lineWidth = .3;
-            ctx.strokeStyle = (new Color(150)).style;
-            var mousePosition = {
-                x: 30 * canvas.width / 100,
-                y: 30 * canvas.height / 100
-            };
-            var dots = {
-                nb: 250,
-                distance: 100,
-                d_radius: 150,
-                array: []
-            };
-            function colorValue(min) {
-                return Math.floor(Math.random() * 255 + min);
-            }
-            function createColorStyle(r, g, b) {
-                return 'rgba(' + r + ',' + g + ',' + b + ', 0.8)';
-            }
-            function mixComponents(comp1, weight1, comp2, weight2) {
-                return (comp1 * weight1 + comp2 * weight2) / (weight1 + weight2);
-            }
-            function averageColorStyles(dot1, dot2) {
-                var color1 = dot1.color,
-                    color2 = dot2.color;
-                var r = mixComponents(color1.r, dot1.radius, color2.r, dot2.radius),
-                    g = mixComponents(color1.g, dot1.radius, color2.g, dot2.radius),
-                    b = mixComponents(color1.b, dot1.radius, color2.b, dot2.radius);
-                return createColorStyle(Math.floor(r), Math.floor(g), Math.floor(b));
-            }
-            function Color(min) {
-                min = min || 0;
-                this.r = colorValue(min);
-                this.g = colorValue(min);
-                this.b = colorValue(min);
-                this.style = createColorStyle(this.r, this.g, this.b);
-            }
-            function Dot() {
-                this.x = Math.random() * canvas.width;
-                this.y = Math.random() * canvas.height;
-                this.vx = -.5 + Math.random();
-                this.vy = -.5 + Math.random();
-                this.radius = Math.random() * 2;
-                this.color = new Color();
-            }
-            Dot.prototype = {
-                draw: function() {
-                    ctx.beginPath();
-                    ctx.fillStyle = this.color.style;
-                    ctx.arc(this.x, this.y, this.radius, 0, Math.PI * 2, false);
-                    ctx.fill();
-                }
-            };
-            function createDots() {
-                for (i = 0; i < dots.nb; i++) {
-                    dots.array.push(new Dot());
-                }
-            }
-            function moveDots() {
-                for (i = 0; i < dots.nb; i++) {
-                    var dot = dots.array[i];
-                    if (dot.y < 0 || dot.y > canvas.height) {
-                        dot.vx = dot.vx;
-                        dot.vy = -dot.vy;
-                    } else if (dot.x < 0 || dot.x > canvas.width) {
-                        dot.vx = -dot.vx;
-                        dot.vy = dot.vy;
-                    }
-                    dot.x += dot.vx;
-                    dot.y += dot.vy;
-                }
-            }
-            function drawDots() {
-                for (i = 0; i < dots.nb; i++) {
-                    var dot = dots.array[i];
-                    dot.draw();
-                }
-            }
-            function animateDots() {
-                ctx.clearRect(0, 0, canvas.width, canvas.height);
-                moveDots();
-                drawDots();
-
-                requestAnimationFrame(animateDots);
-            }
-            createDots();
-            requestAnimationFrame(animateDots);
-        }
-    } catch (e) {}
-</script>
+    <script type="application/javascript" src="js/tool.js" charset="utf-8"></script>
 </body>
 </html>
