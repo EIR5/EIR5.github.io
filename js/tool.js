@@ -39,7 +39,12 @@ var ListData = '[{"VideoNavi": [{"name": "Auete影视","url": "https://v.auete.c
 '"SearchNavi": [{"name": "MSN","url": "https://www.msn.cn/zh-cn","ico": "https://www.msn.cn/favicon.ico"},'+
 '{"name": "百度","url": "https://www.baidu.cn/","ico": "https://www.baidu.com/favicon.ico"}],'+
 '"StudyNavi": [{"name": "Z-lib","url": "https://www.mwcy.net/","ico": "https://www.mwcy.net/favicon.ico"}],'+
-'"ToolsNavi": [{"name": "帮小忙","url": "https://tool.browser.qq.com/","ico": "https://tool.browser.qq.com/favicon.ico"}]},'+
+'"ToolsNavi": [{"name": "帮小忙","url": "https://tool.browser.qq.com/","ico": "https://tool.browser.qq.com/favicon.ico"},'+
+'{"name": "ICO图标","url": "https://www.ico51.cn/","ico": "https://www.ico51.cn/favicon.ico"},'+
+'{"name": "QRBTF","url": "https://qrbtf.com/zh","ico": "https://qrbtf.com/favicon.ico"},'+
+'{"name": "Matrix","url": "http://matrix.lamost.org/","ico": "http://matrix.lamost.org/favicon.ico"},'+
+'{"name": "iconfont","url": "https://www.iconfont.cn/","ico": "https://www.iconfont.cn/favicon.ico"},'+
+'{"name": "cobalt","url": "https://cobalt.tools/","ico": "https://cobalt.tools/favicon.ico"}]},'+
 '{"updataTime": "2024年11月19日14:39:50","author": ""}]'
 function initToolList(){
     var lData = JSON.parse(ListData)[0]
