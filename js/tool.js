@@ -1,3 +1,4 @@
+var imgs= 'images/sleepcat.gif';
 var MenuData = '['+
         '{"name":"影视","img":"images/20230406_yu36rbd9a5q.png","type":"VideoNavi"},'+
         '{"name":"导航","img":"images/20230406_je2677qg5fb.png","type":"PortalNavi"},'+
@@ -19,7 +20,7 @@ function initLeftNavi(){
     for(var v in mData){
         $(".category-container").append('<li class="category-entry-wrapper" data-actived="false" data-open="false" data-children="">'+
         '<a class="category-entry-item" href="javascript:void(0);" data-type="'+mData[v].type+'" data-log-eid="category-entry" data-open="false" data-actived="false" data-log-param="entry='+mData[v].type+'">'+
-        '<img src="'+mData[v].img+'" ><span>'+mData[v].name+'</span></a></li>');
+        '<img src="'+mData[v].img+'" onerror="nofindimg();" ><span>'+mData[v].name+'</span></a></li>');
     }
 }
 
@@ -52,14 +53,19 @@ function initToolList(){
     for(var v in lData){
         for(var i in lData[v]){
             $(".toollist").append('<a class="tool-item" data-type="'+v+'" data-style="1" data-log-eid="tool-entry" data-log-param="entry='+v+'" href="'+lData[v][i].url+'" target="_blank" >'+
-                    '<img class="tool-icon" src="'+lData[v][i].ico+'"  ><div class="name" data-need-charge="0">'+lData[v][i].name+'</div></a>')
+                    '<img class="tool-icon" src="'+lData[v][i].ico+'" onerror="nofindimg();" ><div class="name" data-need-charge="0">'+lData[v][i].name+'</div></a>')
         }
     }
 }
 
-$('img').on("error", function() {
-    $(this).attr('src', 'images/sleepcat.gif');  // 替换为默认图片
-});
+function nofindimg(){
+        var img=event.srcElement;
+        img.src=imgs;
+        img.οnerrοr=null; 
+}
+// $('img').on("error", function() {
+//     $(this).attr('src', 'images/sleepcat.gif');  // 替换为默认图片
+// });
 window.onload = function(){
     var lData = JSON.parse(ListData)
     console.log('内容更新时间：'+lData[1]["updataTime"]);
