@@ -33,14 +33,14 @@ var ListData = '[{"VideoNavi": [{"name": "Auete影视","url": "https://v.auete.c
 '{"name": "厂长88","url": "https://www.czzy88.com/","ico": "https://www.czzy88.com//favicon.ico"},'+
 '{"name": "在线之家","url": "https://www.zxzjhd.com/","ico": "https://www.zxzjhd.com/favicon.ico"},'+
 '{"name": "广真多","url": "https://www.xb6v.com/","ico": "https://www.xb6v.com/favicon.ico"},'+
-'{"name": "整挺好","url": "http://ztha.top/","ico": "http://ztha.top/favicon.ico"},'+
-'{"name": "B站","url": "https://www.bilibili.com/blackboard/live/live-activity-player.html?cid=30902883&quality=1&frameborder=no&framespacing=1&scrolling=no&allowfullscreen=true","ico": "https://www.bilibili.com/.ico"},'+
+'{"name": "B站","url": "https://www.bilibili.com/blackboard/live/live-activity-player.html?cid=30902883&quality=1&frameborder=no&framespacing=1&scrolling=no&allowfullscreen=true","ico": "https://www.bilibili.com/favicon.ico"},'+
 '{"name": "整挺好","url": "http://ztha.top/","ico": "http://ztha.top/favicon.ico"}],'+
 '"PortalNavi": [{"name": "TBox","url": "https://www.tboxn.com/","ico": "https://www.tboxn.com/favicon.ico"}],'+
 '"SearchNavi": [{"name": "MSN","url": "https://www.msn.cn/zh-cn","ico": "https://www.msn.cn/favicon.ico"},'+
 '{"name": "百度","url": "https://www.baidu.cn/","ico": "https://www.baidu.com/favicon.ico"}],'+
 '"StudyNavi": [{"name": "Z-lib","url": "https://www.mwcy.net/","ico": "https://www.mwcy.net/favicon.ico"}],'+
 '"ToolsNavi": [{"name": "帮小忙","url": "https://tool.browser.qq.com/","ico": "https://tool.browser.qq.com/favicon.ico"},'+
+'{"name": "翻译君","url": "https://fanyi.qq.com/","ico": "https://fanyi.qq.com/favicon.ico"},'+
 '{"name": "ICO图标","url": "https://www.ico51.cn/","ico": "https://www.ico51.cn/favicon.ico"},'+
 '{"name": "QRBTF","url": "https://qrbtf.com/zh","ico": "https://qrbtf.com/favicon.ico"},'+
 '{"name": "Matrix","url": "http://matrix.lamost.org/","ico": "http://matrix.lamost.org/favicon.ico"},'+
