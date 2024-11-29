@@ -26,7 +26,7 @@ function initLeftNavi(){
 var ListData = '[{"VideoNavi": [{"name": "Auete影视","url": "https://v.auete.com/","ico": "https://v.auete.com/favicon.ico"},'+
 '{"name": "茶杯狐","url": "https://www.chabei1.com/","ico": "https://www.chabei1.com/favicon.ico"},'+
 '{"name": "喵物次元","url": "https://www.mwcy.net/","ico": "https://www.mwcy.net/upload/site/20241103-1/0e9b2520a7f643e88a7f51412f6b4665.png"},'+
-'{"name": "音乐魔石","url": "https://yym4.com/","ico": "https://yym4.com/favicon.ico"},'+
+'{"name": "音乐魔石","url": "https://yym4.com/","ico": "https://yym4.com/img/favicon.ico"},'+
 '{"name": "玩偶哥哥","url": "https://www.wogg.net/","ico": "https://www.wogg.net/favicon.ico"},'+
 '{"name": "玩偶哥哥备用","url": "https://wogg.xxooo.cf","ico": "https://wogg.xxooo.cf/favicon.ico"},'+
 '{"name": "厂长77","url": "https://www.czzy77.com/","ico": "https://www.czzy77.com/favicon.ico"},'+
