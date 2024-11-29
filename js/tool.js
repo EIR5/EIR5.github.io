@@ -63,6 +63,15 @@ function nofindimg(){
         img.src=imgs;
         img.οnerrοr=null; 
 }
+
+function musicPlay(){
+    var audio = document.getElementById("musicAudio")
+    if (audio.paused) {
+        audio.play();
+    } else {
+        audio.pause();
+    }
+}
 // $('img').on("error", function() {
 //     $(this).attr('src', 'images/sleepcat.gif');  // 替换为默认图片
 // });
